@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bully.Views.Main.IndexView"
+             xmlns:templates="clr-namespace:Bully.Views.Templates;assembly=Bully"
+             Title="{Binding Title}" Style="{ StaticResource MainPageStyle}">
+    <ScrollView   x:Name="outerScrollView">
+        <StackLayout>
+            <Label Style="{StaticResource TextMenu}">En junio de 2000, Microsoft anunció por primera vez su .NET Framework. Miguel de Icaza, de Ximian, comenzó a investigar si una versión para Linux era factible.2​ Posteriormente, el proyecto Mono fue lanzado el 19 de junio de 2001. Ximian fue adquirida por Novell el 4 de agosto de 2003.
+
+Después de la subsiguiente adquisición de Novell por parte de Attachmate en abril de 2011, Attachmate anunció el despido de cientos de trabajadores de Novell, incluyendo a desarrolladores de Mono,3​ poniendo así el futuro del proyecto en cuestión.4​
+
+El 16 de mayo, Miguel de Icaza anunció en su blog que Mono será desarrollado y soportado por Xamarin, empresa que planea lanzar una serie de productos para dispositivos móviles. De acuerdo con de Icaza, al menos una parte del equipo original de Mono se ha movido a la nueva compañía.5​
+
+Sin embargo, en julio de 2011, Novell, ahora una subsidiaria de Attachmate, anuncio que concedería una licencia perpetua a Xamarin para Mono, MonoTouch y Mono para Android, tomando así Xamarin la administración oficial del proyecto.6​7​ En febrero de 2016 es comprada por Microsoft.</Label>
+
+            <templates:FooterTemplate />
+            
+        </StackLayout>
+       
+    </ScrollView>
+</ContentPage>

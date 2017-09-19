@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:templates="clr-namespace:Bully.Views.Templates;assembly=Bully"
+             x:Class="Bully.Views.About.AboutView" Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Base para crear una aplicación completa con xamarin forms para UWP, Android y IOS." />
+            <templates:FooterTemplate />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

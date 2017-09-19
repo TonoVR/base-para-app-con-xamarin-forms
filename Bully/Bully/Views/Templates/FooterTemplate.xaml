@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="Bully.Views.Templates.FooterTemplate">
+  <ContentView.Content>
+      <StackLayout>
+            <BoxView  HeightRequest="1" Color="{StaticResource Color-1}"  />
+            <Label TextColor="{StaticResource Color-4}" FontSize="{StaticResource Font-s-1}">Plantilla de introducción a xamarin forms. by @elbrinner</Label>
+            <BoxView  HeightRequest="1" Color="{StaticResource Color-1}" />
+      </StackLayout>
+  </ContentView.Content>
+</ContentView>
